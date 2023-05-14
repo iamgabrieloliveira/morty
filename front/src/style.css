@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #app {
+    height: 100vh;
+    width: 100%;
+
+    background: #151414;
+    color: #fff;
+}
+
+input {
+    color: #000;
+}
