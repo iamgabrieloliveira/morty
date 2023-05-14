@@ -1,7 +1,9 @@
 import { createRouter, createWebHashHistory } from 'vue-router';
+
+import { authRequire } from './middlewares/authRequire';
+
 import Login from '../pages/Login.vue';
 import Dashboard from '../pages/Dashboard.vue';
-import authRequire from './middlewares/authRequire';
 
 const routes = [
     {
@@ -14,7 +16,7 @@ const routes = [
         path: '/dashboard',
         component: Dashboard,
     },
-]
+];
 
 const router = createRouter({
     history: createWebHashHistory(),
@@ -22,6 +24,5 @@ const router = createRouter({
 });
 
 router.beforeEach(authRequire);
-
 
 export default router;

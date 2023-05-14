@@ -1,13 +1,11 @@
 <template>
     <div>
-        Dashboard
+        <h1 class="text-2xl text-center">Dashboard</h1>
     </div>
 </template>
 
-<script>
-export default {
-    name: 'Dashboard',
-}
+<script setup lang="ts">
+
 </script>
 
 <style scoped>

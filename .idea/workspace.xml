@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9ace66a0-26bd-45ac-a06f-be653991bebe" name="Changes" comment="feat: create application">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/intellij-javadocs-4.0.1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apiTypes.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/app.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/entities/User.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/exceptions/UnauthorizedException.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/jest.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/respositories/IUsersRepository.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/respositories/implementations/MysqlUsersRepository.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/routes/auth.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/routes/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/tsconfig.node.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/useCases/auth/login/LoginUseCase.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/useCases/auth/register/RegisterController.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/useCases/auth/register/RegisterDto.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/useCases/auth/register/RegisterUseCase.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/useCases/auth/register/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/postcss.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/vite.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/api.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/assets/vue.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/authToken.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/router/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/router/middlewares/authRequire.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/shims-vue.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/vite-env.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/tsconfig.node.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/vite.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/js-cookie/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/js-cookie/dist/js.cookie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/js-cookie/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/back/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/back/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/server.ts" beforeDir="false" afterPath="$PROJECT_DIR$/back/server.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/front/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/front/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/front/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/front/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/api.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/pages/Dashboard.vue" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/pages/Dashboard.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/pages/Login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/pages/Login.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/router/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/router/middlewares/authRequire.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/toast.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/vite.config.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Vue Composition API Component" />
+        <option value="JavaScript File" />
+        <option value="Vue Options API Component" />
+        <option value="package.json" />
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="696615ec-f259-4e0f-bb7f-5417f6414a63" />
+        <option name="url" value="git@github.com:iamgabrieloliveira/morty.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/back/node_modules/@types/express/index.d.ts" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="JsbtTreeLayoutManager">
+    <layout place="tools.popupGrunt">
+      <scroll-view-position x="0" y="0" />
+    </layout>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="/usr/bin/php" />
+  <component name="ProjectId" id="2PknVVgoiUW5OkMFQVyNL1bWYyD" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/home/jetimob/Documents/projects/personal/morty/back/useCases/auth",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "ts.external.directory.path": "/var/lib/snapd/snap/intellij-idea-ultimate/426/plugins/javascript-impl/jsLanguageServicesImpl/external",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "vue.recent.templates": [
+      "Vue Composition API Component",
+      "Vue Options API Component"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/back/useCases/auth" />
+      <recent name="$PROJECT_DIR$/back/useCases/verifyToken" />
+      <recent name="$PROJECT_DIR$/back" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9ace66a0-26bd-45ac-a06f-be653991bebe" name="Changes" comment="" />
+      <created>1684009970747</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1684009970747</updated>
+      <workItem from="1684009971822" duration="176000" />
+      <workItem from="1684010309736" duration="1679000" />
+      <workItem from="1684023324305" duration="3000" />
+      <workItem from="1684032718935" duration="2000" />
+      <workItem from="1684033018454" duration="1073000" />
+      <workItem from="1684034100942" duration="817000" />
+      <workItem from="1684034992652" duration="12000" />
+      <workItem from="1684035184649" duration="665000" />
+      <workItem from="1684073011486" duration="1933000" />
+      <workItem from="1684075043794" duration="143000" />
+      <workItem from="1684075241408" duration="9186000" />
+      <workItem from="1684097056263" duration="1966000" />
+    </task>
+    <task id="LOCAL-00001" summary="feat: create application">
+      <created>1684033172826</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1684033172826</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: create application" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: create application" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
