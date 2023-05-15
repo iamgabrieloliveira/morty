@@ -9,6 +9,12 @@ export class RegisterController {
     }
 
     handle(request: Request, response: Response) {
-        this.registerUseCase.execute({  });
+        const { name, email, password } = request.body;
+
+        try {
+            this.registerUseCase.execute({ name, email, password });
+        } catch (error) {
+            response.status(400).send(error.message);
+        }
     }
 }
